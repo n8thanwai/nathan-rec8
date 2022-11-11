@@ -8,7 +8,7 @@ def fibonacci(position):
   if(position == 0):
     return 0
   if(position < 0):
-    raise ValueError("Invalid input")
+    return None
   if(position < 2):
     return 1
   return fibonacci(position - 1) + fibonacci(position - 2)
