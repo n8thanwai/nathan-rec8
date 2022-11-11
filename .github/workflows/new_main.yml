@@ -26,9 +26,3 @@ jobs:
       - name: Move to flask folder
         run: |
           cd app
-      - name: Run test suite
-        run: |
-          pipenv run pytest
-
-    format:
-    
